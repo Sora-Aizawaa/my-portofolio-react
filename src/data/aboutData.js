@@ -2,21 +2,21 @@ const aboutData = {
   title: "About Me",
 
   description:
-    "I'm a Programmer from Indonesia who enjoys building modern web applications using React, Laravel, Tailwind CSS, and MySQL. I enjoy learning new technologies, solving challenging problems, and continuously improving my skills.",
+    "Developer fueled by coffee, clean code, and curiosity. I love turning complex challenges into seamless digital experiences. Off the keyboard, I enjoy tinkering with and repairing laptops, and diving deep into epic gaming masterpieces! ...Yes, Ghost of Tsushima and The Last of Us Part II are permanently downloaded and safely stored on my laptop. Always ready for the next level, both in tech and in games!",
 
-  quote: {
-    title: "好きな言葉",
-    japanese: "「元気があれば何でもできる。」",
-    english: '"If you have spirit, you can do anything."',
-    description:
-      "This quote inspires me to keep learning, embrace challenges with confidence, and never stop growing as a developer.",
-  },
+  // quote: {
+  //   title: "好きな言葉",
+  //   japanese: "「元気があれば何でもできる。」",
+  //   english: '"If you have spirit, you can do anything."',
+  //   description:
+  //     "This quote inspires me to keep learning, embrace challenges with confidence, and never stop growing as a developer.",
+  // },
 
   highlights: [
-    "Clean Code",
-    "Responsive Design",
-    "REST API",
+    "Web Developer",
+    "Hardware Tinkering",
     "Problem Solving",
+    "Gamer & Explorer",
   ],
 };
 

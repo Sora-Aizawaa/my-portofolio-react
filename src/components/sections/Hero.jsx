@@ -1,7 +1,7 @@
 import profile from "../../assets/profile.jpg";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Button from "../ui/Button";
+// import Button from "../ui/Button";
 
 function Hero() {
   return (
@@ -95,19 +95,18 @@ function Hero() {
           text-gray-400
         "
         >
-          I build websites using React, Laravel, Tailwind CSS and MySQL.
-          Passionate about creating responsive, clean and user-friendly
-          applications.
+          Developer who loves programming. I thrive on creating impactful
+          applications and solving challenging problems.
         </p>
 
-        <div className="mt-10 flex gap-5">
-          <Button variant="primary">Hire Me</Button>
+        <div className="flex gap-5">
+          {/* <Button variant="primary">Hire Me</Button>
 
-          <Button variant="outline">Download CV</Button>
+          <Button variant="outline">Download CV</Button> */}
         </div>
         <div className="mt-14 flex gap-16">
           <div>
-            <h2 className="text-4xl font-bold text-cyan-400">20+</h2>
+            <h2 className="text-4xl font-bold text-cyan-400">7+</h2>
 
             <p className="text-gray-400">Projects</p>
           </div>

@@ -1,31 +1,39 @@
-import pos from "../assets/projects/pos.png";
-import anime from "../assets/projects/anime.png";
+import anime1 from "../assets/projects/anime1.png";
+import anime2 from "../assets/projects/anime2.png";
+import anime3 from "../assets/projects/anime3.png";
+import anime4 from "../assets/projects/anime4.png";
+import anime5 from "../assets/projects/anime5.png";
+import tech1 from "../assets/projects/tech1.png";
+import tech2 from "../assets/projects/tech2.png";
+import tech3 from "../assets/projects/tech3.png";
+
 import inventory from "../assets/projects/inventory.png";
 
 const projectsData = [
   {
     id: 1,
-    title: "POS System",
+    title: "Anime Suki",
     description:
-      "Point of Sale berbasis React dan Laravel dengan fitur barcode, QRIS, invoice, dan manajemen stok.",
-    image: pos,
-    technologies: ["React", "Laravel", "MySQL", "Tailwind CSS"],
-    github: "https://github.com/username/pos-system",
-    demo: "https://pos-demo.vercel.app",
+      "A comprehensive anime catalog platform designed to help fans discover trending shows and explore detailed information on their favorite series",
+    image: [anime1, anime2, anime3, anime4, anime5],
+    technologies: ["Next Js", "Tailwind CSS", "Jikan API"],
+    github: "https://github.com/Sora-Aizawaa/Anime-Suki_Website_Nextjs",
+    demo: "https://anime-suki-website-nextjs.vercel.app/",
   },
   {
     id: 2,
-    title: "Anime Website",
+    title: "CoreFix Laptop",
     description:
-      "Website pencarian anime menggunakan Jikan API dengan desain modern dan responsif.",
-    image: anime,
-    technologies: ["React", "Jikan API", "Tailwind CSS"],
-    github: "https://github.com/username/anime-app",
-    demo: "https://anime-demo.vercel.app",
+      "CoreFix Laptop is an on-site laptop repair service platform that provides various hardware solutions.",
+    image: [tech1, tech2, tech3],
+    technologies: ["React", "Tailwind CSS"],
+    github:
+      "https://github.com/Sora-Aizawaa/Sora-Aizawaa-Code-Blue-Laptop_Web-Application",
+    demo: "https://sora-aizawaa-code-blue-laptop-web-a.vercel.app/",
   },
   {
     id: 3,
-    title: "Inventory System",
+    title: "Cash & Kredit Furniture Website",
     description:
       "Sistem manajemen stok barang lengkap dengan laporan dan dashboard.",
     image: inventory,

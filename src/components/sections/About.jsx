@@ -18,7 +18,7 @@ function About() {
           {aboutData.description}
         </p>
 
-        <div className="mt-10 rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-6">
+        {/* <div className="mt-10 rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-6">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-400">
             {aboutData.quote.title}
           </p>
@@ -32,7 +32,7 @@ function About() {
           <p className="mt-4 leading-8 text-gray-300">
             {aboutData.quote.description}
           </p>
-        </div>
+        </div> */}
 
         <div className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-4">
           {aboutData.highlights.map((item) => (
