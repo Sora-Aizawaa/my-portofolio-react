@@ -24,7 +24,7 @@ function Navbar() {
       >
         {/* Logo */}
         <h1 className="text-2xl font-bold text-white">
-          Haze<span className="text-cyan-400">.</span>
+          SoraAizawaa<span className="text-cyan-400">.</span>
         </h1>
 
         {/* Menu */}

@@ -37,7 +37,7 @@ const projectsData = [
     description:
       "Sistem manajemen stok barang lengkap dengan laporan dan dashboard.",
     image: inventory,
-    technologies: ["React", "Laravel", "MySQL"],
+    technologies: ["Next Js", "Tailwind CSS", "MySQL"],
     github: "https://github.com/username/inventory",
     demo: "https://inventory-demo.vercel.app",
   },

@@ -75,11 +75,13 @@ function Hero() {
         <div className="mt-30 text-3xl font-semibold text-cyan-400">
           <TypeAnimation
             sequence={[
-              "React Developer",
+              "React Js",
               1500,
-              "Laravel Developer",
+              "Laravel",
               1500,
-              "Python Programmer",
+              "Python",
+              1500,
+              "Next Js",
               1500,
             ]}
             speed={50}
@@ -106,7 +108,7 @@ function Hero() {
         </div>
         <div className="mt-14 flex gap-16">
           <div>
-            <h2 className="text-4xl font-bold text-cyan-400">7+</h2>
+            <h2 className="text-4xl font-bold text-cyan-400">1+</h2>
 
             <p className="text-gray-400">Projects</p>
           </div>

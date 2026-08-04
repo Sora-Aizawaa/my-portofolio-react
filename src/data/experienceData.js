@@ -3,7 +3,7 @@ const experienceData = [
     id: 1,
     title: "Self Employed Programmer",
     company: "Self Employed",
-    period: "2023 - Present",
+    period: "2024 - Present",
     description: "Built some various website",
   },
   {
